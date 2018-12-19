@@ -14,11 +14,11 @@ return [
      */
     'key' => [
         'API_URL' => 'https://sandbox-coreapi.pexcard.com/v4/',
-        'CLIENT_ID' => 'd90d175c',
-        'CLIENT_SECRET' => 'afe1e66cd1f68b343d4666bdc7195389',
-        'ADMIN_USERNAME'=>'tabledotapitest',
-        'ADMIN_PASSWORD'=>'Pexcard2378!2',
-        'DEVELOPER_USERNAME'=>'ktabledot',
-        'DEVELOPER_PASSWORD'=>'A9de11fe@'
+        'CLIENT_ID' => null,
+        'CLIENT_SECRET' => null,
+        'ADMIN_USERNAME'=>null,
+        'ADMIN_PASSWORD'=>null,
+        'DEVELOPER_USERNAME'=>null,
+        'DEVELOPER_PASSWORD'=>''
     ],
 ];
