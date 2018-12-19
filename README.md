@@ -41,6 +41,6 @@ use aatish\Pex\Services\PexService;
 ```
         $pex = new PexService();
         $pex->setToken(<token>);
-        $pex->FundCard('3096894','10');
+        $pex->FundCard(<cardID>,<amount>);
 ```
         
