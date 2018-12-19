@@ -19,6 +19,28 @@ php artisan vendor:publish
 
 ## Define API KEYS and Username
 
+- After Vendor Publish, define the api keys in config/pex.php
 
-* [Laravel](https://laravel.com/) - The PHP framework for web artisans.
+
+## Modules complete
+-   Generating API key
+```
+use aatish\Pex\Services\PexService;
+
+    $objPex = new PexService();
+    $objPex->generate_user_token();
+    $objPex->getToken()
+```
+-   Renew API key
+```
+    $pex = new PexService();
+    $pex->renew_token(<token>);
+        
+```
+-   Add Fund to card 
+```
+        $pex = new PexService();
+        $pex->setToken(<token>);
+        $pex->FundCard('3096894','10');
+```
         
