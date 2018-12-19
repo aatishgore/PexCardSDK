@@ -1,0 +1,26 @@
+{
+    "name": "aatish/Pex",
+    "description": "PexCard Api SDK package",
+    "authors": [
+        {
+            "name": "Aatish Gore",
+            "email": "aatish15@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "laravelcollective/html": "^5.5"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "aatish\\Pex\\PexServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "aatish\\Pex\\": "src/"
+        }
+    }
+}
