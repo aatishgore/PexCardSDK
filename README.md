@@ -43,4 +43,11 @@ use aatish\Pex\Services\PexService;
         $pex->setToken(<token>);
         $pex->FundCard(<cardID>,<amount>);
 ```
+-   Add Fund to card to zero
+```
+        $pex = new PexService();
+        $pex->setToken(<token>);
+        $pex->FundCardZero(<cardID>);
+```
+
         

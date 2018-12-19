@@ -137,17 +137,21 @@ class PexService extends BaseService
 
     }
 
+    /**
+     * Fund Card Zero
+     */
 
+    public function FundCardZero($cardId = null){
+        if(is_null($cardId) ){
+            throw new Exception('CardID and Amount is required');
+        }
 
+        $url = 'Card/Zero/'.$cardId;
+        $data = array();
+        $this->createHeader();
+        $this->makeRequest($url, $data,'POST');
+        $response = $this->getBody();
 
-
-
-
-
-
-    
-
-
-
+    }
 
 }
